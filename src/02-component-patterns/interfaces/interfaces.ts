@@ -27,3 +27,12 @@ export interface ProdTitleProps {
     title?: string;
     style?: CSSProperties
 }
+
+export interface onChangeArgs {
+    product: Product;
+    count: number;
+}
+
+export interface ProductInCart extends Product {
+  count: number;
+}
