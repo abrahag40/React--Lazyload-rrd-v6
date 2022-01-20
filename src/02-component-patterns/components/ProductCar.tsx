@@ -1,5 +1,5 @@
 import { createContext, CSSProperties, ReactElement } from 'react';
-import useProduct from "../hooks/useProduct";
+import { useProduct } from "../hooks/useProduct";
 import { onChangeArgs, Product, ProductContextProps } from "../interfaces/interfaces";
 import styles from "../styles/styles.module.css";
 

@@ -1,5 +1,5 @@
 import { ProductCard, ProductButtons, ProductImage, ProductTitle } from "../components"
-import useShoppingCart from '../hooks/useShoppingCart';
+import { useShoppingCart } from '../hooks/useShoppingCart';
 import '../styles/custom-styles.css'
 import { products } from '../data/products';
 
