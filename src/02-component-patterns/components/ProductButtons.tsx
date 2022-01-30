@@ -1,7 +1,6 @@
-import { CSSProperties, useContext } from "react"
+import { CSSProperties, useContext, useCallback } from "react"
 import { ProductContext } from "./ProductCar"
 import styles from "../styles/styles.module.css";
-import { useCallback } from "react";
 
 export interface ProductButtonsProps {
     className?: string;
